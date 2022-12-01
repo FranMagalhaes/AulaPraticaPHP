@@ -1,0 +1,33 @@
+@charset "UTF-8";
+header{
+    text-align: center;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    color: #322b96;
+    font-size: 25;
+}
+
+header img#imgSigno {
+    width: 200px;
+    height: 200px;
+}
+
+header h2 {
+    font-family: Arial, sans-serif;
+    font-size: 15;
+}
+
+div#descricao{
+    width: 50%;
+    margin-left: 350;
+}
+
+footer#rodape {
+    margin-top: 100px;
+    color: #cecece;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}

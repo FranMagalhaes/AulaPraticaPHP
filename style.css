@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+    background-color: dimgray;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    color: #322b96;
+    font-size: 25;
+    text-align: center;
+}
+
+header img{
+    text-align: center;
+    width: 350px;
+    height: 300px;
+}
+
+header h2 {
+    font-family: Arial, sans-serif;
+    font-size: 15;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+label {
+    font-family: Arial, sans-serif;
+}
+
+form#form-signos {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+footer#rodape {
+    color: #cecece;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #da2ac2;
+    outline: 0;
+}
+
+.third {
+    border-color: #da2ac2;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #da2ac2 inset, 0 0 0 0 #da2ac2;
+    transition: all 150ms ease-in-out;
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 #da2ac2 inset, 0 0 10px 4px #da2ac2;
+}
+
+
+
